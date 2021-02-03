@@ -183,7 +183,6 @@ psR2(logitmdl)   #32.1%
 ##probabilities of coefficients:
 logit2prob=function(logitmodel){
   odd_exponents=exp(logitmodel)
-  #probs=odd_exponents/(1+odd_exponents)
   return(odd_exponents)
 }
 
